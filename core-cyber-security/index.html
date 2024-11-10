@@ -1,0 +1,1407 @@
+<!doctype html>
+<html lang="en">
+	
+    <head>
+		<meta charset="utf-8">
+		<title class = index_title>CI404 cyber sec</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="css/normalize.css/normalize.css">
+        <link rel = "stylesheet" href = "css/styles.css">
+        <link rel="icon" href="images/blog.jpg">
+        <meta name="robots" content="noindex">
+	</head>
+
+    <body class="index_body">
+	    <div class="index_wrapper">
+            <!-- The header for my website  -->
+    	    <header class="banner">
+                <div class = "index_my_layout">
+			        <h1>CI404 Cyber sec revision</h1>
+                </div>
+		    </header>
+            <!-- To set up the layout -->
+		    <nav class = "index_menu">
+                <div class = "index_my_layout">
+                    <!-- The navigation menu -->
+                    <h2 class = "index_title">Navigation</h2>
+                        <ul>
+                            <li> <a href = "index.html">Back to menu</a></li>
+                            <li> <a href = "contact.html">Contact me</a> </li>
+                        </ul>
+                </div>
+		    </nav>
+    
+            <!-- The weekly menu  -->
+	        <nav class = "weeknav">
+                <div class = "index_my_layout">
+
+			        <h3>Weekly content</h3>
+				    <ul>
+					    <li><a href="#week1">Week 1</a></li>
+                        <li><a href="#week2">Week 2 - Authentication, authorization , password salt, access control</a></li>
+                        <li><a href="#week3p1">Week 3 - Encryption</a></li>
+                        <li><a href="#week3p2">Week 3 - Secure coding</a></li>
+                        <li><a href="#week4p1">Week 4 - Social engineering</a></li>
+                        <li><a href="#week4p2">Week 4 - Privacy engineering</a></li>
+                        <li><a href="#week5p1">Week 5 - Risk management</a></li>
+                        <li><a href="#week6p1">Week 6 - Network security</a></li>
+                        <li><a href="#week6p2">Week 6 - Wireless security</a></li>
+                        <li><a href="#week7p1">Week 7 - Malware</a></li>
+                        <li><a href="#week7p2">Week 7 - Web security</a></li>
+                        <li><a href="#week8">Week 8 - Cloud computing</a></li>
+                        <li><a href="#week9p1">Week 9 - Economics </a></li>
+                        <li><a href="#week9p2">Week 9 - OS </a></li>
+                        <li><a href="#week10p1">Week 10 - Human resources</a></li>
+                        <li><a href="#week10p2">Week 10 - Security auditing</a></li>
+                        <li><a href="#week12">Week 12 - Pen Testing</a></li>
+                    </ul>
+                </div>
+		    </nav>
+    
+        
+                  
+	        <main class = "index_main"> 
+
+
+               
+        
+              
+
+                <!-- WEEK1 -->
+                <div class = "index_my_layout">
+                    <a id="week1"></a>
+                    <h2 class = "index_title">Week 1</h2>
+                    <div class="qbox">
+                        <h3>What is Cyber security?</h3> 
+                        <p class = "ans">This is the protection of devices that are connected to the internet, from cyber attacks.</p>  
+                    </div>
+
+                    <div class="qbox">
+                        <h3>What is Network security?</h3> 
+                        <p class = "ans">The protection of the network, this includes hardware and software. It targets malware and stops them from entering or spreading in the network.</p>  
+                    </div>
+
+                    <div class="qbox">
+                        <h3>What is CIA?</h3> 
+                        <ul class = "ans">
+                            <li>Confidentiality - only authorized users can view sensitive info.</li>
+                            <li>Integrity - only authorized users can modify data. There are two types of integrity system and data.</li>
+                            <li>Availability - Can be accessed when needed by authorized users</li>
+                        </ul>  
+                    </div>
+
+                    <div class="qbox">
+                    <img class = "normal_images" src="images/sercuriyterminolgy.png" alt="sercuriyterminolgy">
+                    </div>
+
+
+                    <div class="qbox">
+                        <h3>Give me two types of attacks?</h3> 
+                        <ol class = "ans">
+                            <li>Passive - This sits quietly in the background collecting data about the user</li>
+                            <li>Active - This tries to change the system resources.</li>
+                        </ol>  
+                    </div>
+                    <div class="qbox">
+                    <img class = "normal_images" src="images/passive.png" alt="sercuriyterminolgy">
+                    </div>
+
+                    <div class="qbox">
+                    <img class = "normal_images" src="images/typicalthreats.png" alt="sercuriyterminolgy">
+                </div>
+                    <footer class = weekfooter>
+                        <p><a href="#week1">Go to top</a></p>
+                    </footer>
+            </div>
+
+
+
+
+            <!-- WEEK2 -->
+            <div class = "index_my_layout">
+                <a id="week2"></a>
+                <h2 class = "index_title">Week 2 - Authentication, authorization , access control</h2>
+                <div class="qbox">
+                    <h3>What is Identification?</h3> 
+                    <p class = "ans"> This is when you say who you are, e.g, username.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is Authentication?</h3> 
+                    <p class = "ans"> This is when you confirm/prove who you are, e.g, password</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is Authorization?</h3> 
+                    <p class = "ans"> Authorisation is the function of specifying access rights/privileges to resources related to information security and computer security. They should use least privileges which is when you get the minimum  access to the resources that you need to do your job.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Types of authentication?</h3> 
+                    <ul class = "ans"> 
+                        <li>User knowledge - pin, password</li>
+                        <li>A token - Keycard</li>
+                        <li>Static biometrics - Finger, retinal, face</li>
+                        <li>Dynamic biometric - Voice, hardwriting</li>
+                    </ul>
+                </div>
+
+                <div class="qbox">
+                <img class = "normal_images" src="images/passwordCracking.png" alt="sercuriyterminolgy">
+                </div>    
+                
+
+
+                <div class="qbox">
+                    <h3>What is password salt?</h3> 
+                    <p>Salting is a cryptographic way to store passwords in a strong way, they are a set of random characters that are added to the end of a password before they are hashed. They are added automatically after a user types in the password. Salts are stored in plain text with the hash output so the website knows what salt to use.</p>
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/token.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/biometric.png" alt="sercuriyterminolgy">
+                </div>
+
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/subject.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What is access control?</h3> 
+                    <p class ="ans">To control who can access which resource, and to stop unauthorized access. So only authorized access can do the authorized task.</p>   
+                </div>
+
+             
+
+
+                <div class="qbox">
+                    <h3>What is MAC (Mandatory access control)?</h3> 
+                    <p class ="ans">A model of access control that is controlled by the admin. When someone makes a asset eg folder, there is not owner.</p>
+                    <p class ="ans">This model is extremely secure as only one person can decide who has access to what. But is more complex and is hard to scale because you have to keep changing which subject have access to the object.</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is DAC (Discretionary access control)?</h3> 
+                    <p class ="ans">A model of access control. Every object has an owner, the owner has full control of who can access or modify the object. The admin can access the file even if the owner didn't give permission.</p>
+                    <p class ="ans">This is the easiest to use and to implement. The issue is it doesn't scale well because it will have so many different owners and so many different files to give access to.</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is RBAC (Role based access control)?</h3> 
+                    <p class = "ans">A model of access control, users are put in a group and each group is only allowed specific assets.</p>
+                    <p class = "ans">This is simple and scales easy but you have to trust every person in the group.</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is ABAC (Attribute based access control)?</h3> 
+                   <p class="ans">Each user has a number of attributes that can either allow them or deny them from accessing a object.</p>
+                   <p class = "ans">Ths gives you more granular control over who can access the file but is more complex as you have to set up a number of attributes for each person.</p>
+                </div>
+
+
+                <div class="qbox">
+                    <h3>Explain the  relationship  between  Authentication,  Authorisation  and  an  Access  Control Policy? </h3> 
+                    <p class = "ans">Ensures security and access control policies are in place to protect confidential information e.g. customer data. </p>  
+                    <p>The relationship between all three is that it keeps the system secure by having access control policies in place to keep the systems confidentiality, integrity and availability .</p>
+                </div>
+
+
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+        </div>
+
+
+
+         <!-- WEEK3 part 1 -->
+         <div class = "index_my_layout">
+            <a id="week3p1"></a>
+            <h2 class = "index_title">Week 3 - Encryption</h2>
+            <div class="qbox">
+                <h3>What is cryptography?</h3> 
+                <p class = "ans">When you encode information using  an algorithm.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is encryption?</h3> 
+                <p class = "ans">The process of changing normal text to cipher text</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is decryption?</h3> 
+                <p class = "ans">The process of changing cipher text to normal text.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is cipher text?</h3> 
+                <p class = "ans">Text that is not readable by humans.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is a hash?</h3> 
+                <p class = "ans">A mathematical function that changes a text into a random output string that has fixed length. The same input string will always produce the same output string, if the input string is changed by a single charter the output string will be completely different.</p>  
+                <p class = "ans">Hash is a one way encryption, you cant decrypt it.</p>
+                <h3>How can you decode a hash?</h3>
+                <p class = "ans">Because hashes always produce the same output string, by comparing to the database of the common passwords, you can reverse engineer what the password was. This is called a rainbow table.</p> 
+            </div>
+
+            <div class="qbox">
+                <h3>What is cipher?</h3> 
+                <p class = "ans">The algorithm used to encrypt and decrypt text.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is key?</h3>
+                <p class = "ans">The parameters to guide the cipher </p>  
+            </div>
+
+            <div class="qbox">
+                <h3>Cipher and key</h3> 
+                <p class = "ans">You need both the cipher and the key to decrypt data</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>Substitution cipher</h3> 
+                <p class = "ans">When you change a letter for the alphabet to another letter. Caesar is a type of Substitution cipher</p>  
+            </div>
+
+            <div class="qbox">
+                <img class = "normal_images" src="images/caesarcip1.png" alt="sercuriyterminolgy">
+                <p>This is when shift the letters in an alphabet a certain amount to encrypt the message. Eg Lets shift minas 3 letters this would give me plqdv. To decrypt it you apply the sift.</p>
+                <p>This can be cracked because each language has a frequency for each letter for eg in the uk the letter e is the most common letter used. To break it you count the frequency of each letter and check how far the shift has shifted. This is called frequency analysis.</p>
+                <p>It can also be cracked by brut force as their are only 25 keys.</p>
+            </div>
+            
+
+        
+            <div class="qbox">
+                <h3>What is transposition cipher</h3> 
+                <p class = "ans">This is a pattern of how the order of characters using rows and columns to change text eg when you write the message in row and encrypt the message in columns.</p>
+                <p class="ans">This is still suspectable to frequency analysis and brute force.</p>
+                <div class="qbox">
+                    <img class = "normal_images" src="images/transpostion.png" alt="sercuriyterminolgy">
+                </div>  
+                <div class="qbox">
+                    <img class = "normal_images" src="images/transpostionp2.png" alt="sercuriyterminolgy">
+                </div>  
+            </div>
+
+
+            <div class="qbox">
+                <h3>What is cryptoanalysis</h3> 
+                <p class = "ans">When you decrypt data without knowing the cipher or the key used</p> 
+                <img class = "normal_images" src="images/cryptoanalysis.png" alt="sercuriyterminolgy"> 
+            </div>
+
+            <div class="qbox">
+                <h3>Types of encryption</h3> 
+                <p class = "ans">Symmetric encryption - <strong>only private key.</strong> You use the same key to encrypt and decrypt. This processes text into fixed block sizes. E.g, DES, 3DES, AES. The issue is you need to securely swap the keys. This is faster than asymmetric encryption, and their isnt a size limit of the message.</p>  
+                <p class="ans">Asymmetric encryption - A public and a private key. The public key can be distributed freely. The key used to encrypt is different to the key used to decrypt. The person encrypts an outgoing message using the receivers public key, but only the receivers private key can decrypt it. This can be used for digital certification and SSL. Its slow and has a message size limit, but it is safer.</p>
+                <img class = "normal_images" src="images/symetricvsaysmetric.png" alt="sercuriyterminolgy">
+            </div>
+
+            <div class="qbox">
+                <h3>DES (data encryption standard)</h3> 
+                <p class = "ans">Divides messages into blocks of 64 bits, and uses a 56 bit key. This was crack by brute force.</p>
+            </div>
+
+            <div class="qbox">
+                <h3>3DES (3data encryption standard)</h3> 
+                <p class = "ans">Repeats Des 3 times so the key is 168 bits. This is very secure and brute force would take a long time, the issue with it is that it is slow.</p>
+            </div>
+
+            <div class="qbox">
+                <h3>AES (Advanced encryption standard)</h3> 
+                <p class = "ans">This has a block length of 128 bits  and the key is 128,192, or 256. Very secure and faster than 3DES.</p>
+            </div>
+
+
+            <div class="qbox">
+                <h3>What is SSL</h3> 
+                <p class = "ans">Secure Socket Layer this uses public key to secure channel over the internet.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is S-HTTP</h3> 
+                <p class = "ans">Secure hypertext transfer protocol is an extended version of HTTP, that uses ssl to provide encryption of messages between server and user. This works by providing an encrypted layer between the website and the browser making sure hackers cant access the data.</p>  
+            </div>
+            <div>
+            <footer class = weekfooter>
+                <p><a href="#week1">Go to top</a></p>
+            </footer>
+            </div>
+        </div>
+
+
+
+             <!-- WEEK3 Part 2 -->
+         <div class = "index_my_layout">
+            <a id="week3p2"></a>
+            <h2 class = "index_title">Week 3 - Secure coding</h2>
+            
+            <div class="qbox">
+                <h3>What are the main causes of vulnerabilities and how can you protect against them?</h3> 
+                <p class = "ans">Bugs and logic flaws are the main causes of vulnerabilities. To protect against them you need to have different testing and development teams, a fresh pair of eyes can help spot new issues. Assessment process for unknown vulnerabilities. Automated and manual tools should be used. The use of coding standards and practices. </p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is architectural analysis?</h3> 
+                <p class = "ans">The functionality and structure of the system, for example the interaction between the program and the users, what operation are users allowed to do/ what can they assess.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is buffer overflow in C/C++?</h3> 
+                <p class = "ans">When a user writes a variable into a piece of memory that has a certain length. But the variable is bigger than the specified memory so it overwrites other data.</p>
+             
+            </div>
+
+
+            <div class="qbox">
+                <h3>What is int overflow in java?</h3> 
+                <p class = "ans">A int in java is 32 bits so, when a user attempters to go over 32 bit it he can break the program.</p>
+            </div>
+
+
+            <div class="qbox">
+                <h3>What is sql injection?</h3> 
+                <p class = "ans"> This lets an attacker have access to the database using sql through an input. This is usually data they are not allowed to view, the attacker might be also abel to modify or deleted the data, causing permanent damage.</p>
+            </div>
+
+
+            <div class="qbox">
+                <img class = "normal_images" src="images/countermesurefor.png" alt="sercuriyterminolgy">
+            </div>
+
+            <div class="qbox">
+                <img class = "normal_images" src="images/standerdssecurep1.png" alt="sercuriyterminolgy">
+                <img class = "normal_images" src="images/standerdssecurep2.png" alt="sercuriyterminolgy">
+            </div>
+
+
+            <div class="qbox">
+                <h3>What is automatic code review?</h3> 
+                <p class = "ans">A software that can find vulnerabilities in a program. This is faster than manual code review and can be optimized according to a standard. However, it might produce false positives and false negatives, and might be expensive to use. </p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is manual code review?</h3> 
+                <p class = "ans">This is when someone deep dives into the code to see if there are any vulnerabilities. They check for logic errors and things automatic code review tools might not be able to find. There are tools that help with manual code review for example to make reading the code easier or to be able to comment. This requires extra time as it isn't done automatically.</p>  
+            </div>
+
+            <div>
+            <footer class = weekfooter>
+                <p><a href="#week1">Go to top</a></p>
+            </footer>
+            </div>
+            </div>
+
+
+                <!-- WEEK4 Part 1 -->
+         <div class = "index_my_layout">
+            <a id="week4p1"></a>
+            <h2 class = "index_title">Week 4 - Social engineering</h2>
+            
+            <div class="qbox">
+                <h3>What is social engineering</h3> 
+                <p class = "ans">When you manipulate someone into doing something for you, this can be done by using their trust against them or plays on your sympathy.</p>
+                <p class="ans">Through social engineering you can get peoples passwords, trojan's apps</p>
+                <img class = "normal_images" src="images/wayssocial.png" alt="sercuriyterminolgy">
+            </div>
+            <div>
+            <footer class = weekfooter>
+                <p><a href="#week1">Go to top</a></p>
+            </footer>
+            </div>
+            </div>
+
+
+
+             <!-- WEEK4 Part 2 -->
+            <div class = "index_my_layout">
+                <a id="week4p2"></a>
+                <h2 class = "index_title">Week 4 - Privacy engineering</h2>
+                <div class="qbox">
+                    <h3>What is Privacy engineering?</h3> 
+                    <p class = "ans">This is a software engineering related discipline on how you handel users data, it must follow regulations and must be privacy by design.</p>  
+                    <img class = "normal_images" src="images/privacyhard.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>Why is Privacy not security?</h3> 
+                    <p class = "ans">A lose of privacy doesn't mean a data breach, and having good security doesn't guarantee privacy. However it is important to have good security to archive privacy. </p>  
+                    
+                </div>
+
+                <div class="qbox">
+                    <h3>Who can undertake privacy protection</h3> 
+                    <ul class = "ans">
+                        <li>Government laws</li>
+                        <li>Business code of conduct</li>
+                        <li>By users through PET(Privacy enhanced tech)</li>
+                    </ul>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is privacy impact assessment(PIA)?</h3> 
+                    <p class = "ans">This is done by an independent entity that is not linked to the project. To see how new data collection will affect the users. This is done to consider privacy issues while making the project.</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is Privacy by design (PbD)</h3> 
+                    <p class = "ans">These are 7 principles that says how we should deal with data</p>
+                    <ol class = "ans">
+                        <li>Proactive not reactive - stop data leaks before it happens</li>
+                        <li>Privacy is the default setting</li>
+                        <li>Privacy embedded in design - while building the software think of privacy</li>
+                        <li>Fully functional</li>
+                        <li>Security - data is controlled and stored securely</li>
+                        <li>Visibility & Transparency</li>
+                        <li>Respect for user privacy</li>
+                    </ol>  
+                </div>
+
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/userpconcent.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/Designconcent.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What are PET - Privacy enhanced technologies</h3> 
+                    <p class = "ans">Software users use to protect their data</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/anonymityType.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What is k-anonymity?</h3> 
+                    <p class = "ans">When you hide peoples PII (personal identifiable info) but revealing characteristics of the data, to for example researchers.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is a linking attack?</h3> 
+                    <p class = "ans">A linking attack is when someone has been k-anonymised and is in a dataset. A bad actor ties to link the data set to a person. To prevent this you Increase the degree of generalization when releasing a dataset.</p>  
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/macrodata.png" alt="sercuriyterminolgy">
+                </div>
+            
+                <div>
+                    <footer class = weekfooter>
+                        <p><a href="#week1">Go to top</a></p>
+                    </footer>
+                </div>
+            </div>
+
+
+
+
+             <!-- WEEK5 Part 1 -->
+         <div class = "index_my_layout">
+            <a id="week5p1"></a>
+            <h2 class = "index_title">Week 5 - Risk management</h2>
+
+            <div class="qbox">
+                <h3>What is Risk analysis?</h3> 
+                <p class = "ans">This is when you identify and analyse risks, that your system might have, and order it by highest risk (How likely it is to occur, impact if a cyber attack was to happen? , cost of getting hacked vs cost of fixing it ). This includes Assets, threats and vulnerabilities. This is a part of risk management.</p>  
+            </div>
+
+            <div class="qbox">
+                <h3>What is risk management?</h3> 
+                <p class = "ans">When you do a risk analysis and see how you should respond to each risk.</p>
+                <img class = "normal_images" src="images/threats.png" alt="sercuriyterminolgy">
+                <img class = "normal_images" src="images/threatsp2.png" alt="sercuriyterminolgy">
+                <img class = "normal_images" src="images/threatsp3.png" alt="sercuriyterminolgy">
+            </div>
+
+
+            <div class="qbox">
+                <h3>Definition of risk and equation</h3> 
+                <p class = "ans">The possibly of harm or loss.</p>
+                <p class="ans">Risk = probability * impact</p>
+                <p class="ans">Impact valuation * probability of threat * probability of exploitation + risk aversion </p>
+            </div>
+
+            <div class="qbox">
+                <img class = "normal_images" src="images/vunr.png" alt="sercuriyterminolgy">
+            </div>
+
+            
+            <div class="qbox">
+                <img class = "normal_images" src="images/controls.png" alt="sercuriyterminolgy">
+            </div>
+
+            <div class="qbox">
+                <img class = "normal_images" src="images/response.png" alt="sercuriyterminolgy">
+            </div>
+            
+
+
+            
+            
+            <div>
+            <footer class = weekfooter>
+                <p><a href="#week1">Go to top</a></p>
+            </footer>
+            </div>
+            </div>
+
+
+
+
+
+
+             <!-- WEEK6 Part 1 -->
+            <div class = "index_my_layout">
+                <a id="week6p1"></a>
+                <h2 class = "index_title">Week 6 - Network security</h2>
+                <div class="qbox">
+                    <img class = "normal_images" src="images/behaviour.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What is Security intrusion</h3> 
+                    <p class = "ans">When you enter into a network, unauthorized</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is intrusion detection system (IDS)</h3> 
+                    <p class = "ans">This detects and analyses info from a network to see for a possible intrusion. This can be hardware or software and is placed in multiple areas of the network.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are the three types of IDS</h3> 
+                    <ol class = "ans">
+                        <li>Host-based (HIDS)- This monitors a single host like a computer, for any suspicious activity. </li>
+                        <li>Network based IDS (NIDS) - This monitors specified parts of the network for and suspicious activity. They should be put in strategic points of the network. </li>
+                        <li>Distributed or hybrid IDS - This is on both the host and the network there is a central analyser that detects suspicious activity </li>
+                    </ol>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are the three logical components of IDS</h3> 
+                    <ol class = "ans">
+                        <li>Sensors - collect data</li>
+                        <li>Analyzer - finds out if there was an intrusion that happened.</li>
+                        <li>User interface - log of things that happened / alerts system admin when a breach happens</li>
+                    </ol>  
+                </div>
+
+                <div class="qbox">
+                    <h3>How can you generate a log summary report</h3> 
+                    <ul class = "ans">
+                        <li>Automated analysis</li>
+                        <li>Manual log analysis</li>
+                    </ul>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>IDS requirements</h3> 
+                    <ul class = "ans">
+                        <li>Ran continually</li>
+                        <li>Minimal overhead on system</li>
+                        <li>Can scale to monitor a large number of system</li>
+                        <li>Be fault tolerant</li>
+                        <li>Can be configured to system polices.</li>
+                        <li>Flexibility </li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are the two analysis approaches to IDS</h3> 
+                    <ul class = "ans">
+                        <li>Anomaly detection - This collects data about behavior of real users over period of time and compare it to current behavior to check if it is an intruder. </li>
+                        <li>Signature/heuristic detection - Uses data of malicious activity and compares with current behavior , can only identify known attacks.</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/anomaldetection.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What data do IDS collect?</h3> 
+                    <ul class = "ans">
+                        <li>System call traces</li>
+                        <li>Log file</li>
+                        <li>File integrity checksum</li>
+                        <li>Registry  access</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>NIDS characteristics</h3> 
+                    <ul class = "ans">
+                        <li>Monitors traffic at selected points on a network</li>
+                        <li>Examines traffic packets</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/log.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>What is a honeypot?</h3> 
+                    <p class = "ans">This is a fake system to lure potential cyber attackers away from critical software, this collects attackers activity and tries to get them to spend long enough so the admin can respond. The system is filled with fake info and the resources have no production value.  </p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What are the two types of honeypots?</h3> 
+                    <ol class = "ans">
+                        <li>Low impact honeypot - It emulates a system well enough to fool someone initially but it isn't that realistic as its not a full system. </li>
+                        <li>High impact honeypot - A real system with a full OS, services and apps. Its a more realistic target that may take an attacker longer to work out that it is a fake system. However it requires more resources and if compromised it could be used to attack other systems.</li>
+                    </ol>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is a firewall?</h3> 
+                    <p class = "ans">A system that is used to prevent unauthorized access from entering into a network. This is done by filtering private info coming in the internet. The firewall blocks unwanted traffic and lets wanted traffic.</p>
+                    <p class ="ans">A firewall works by filtering the incoming traffic and determine by the rules (access control list/ Access polices) given if it is allowed to enter or not, this is controlled by system admin.</p>
+                    <p class ="ans"> The firewall rules can be based on</p>
+                    <ul class ="ans">
+                        <li>IP address</li>
+                        <li>Domain names</li>
+                        <li>Protocols</li>
+                        <li>Ports</li>
+                        <li>Key words</li>
+                    </ul>
+                    <p class ="ans">There are both host based firewall and network based firewalls</p>
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/firewallchar.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>Firewall capabilities</h3> 
+                    <ul class = "ans">
+                        <li>Defines a single choke point</li>
+                        <li>Provides a location for monitoring</li>
+                    </ul> 
+                    <h3>Firewall limits</h3>
+                    <p>Can't protect against attacks bypassing the firewall</p>
+                    <p>Cant fully protect against internal threats</p>
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is an IPS (intrusion prevention system)?</h3> 
+                    <p class = "ans"> The tools that blocks intrusion, this is a control system that reads packets and compares them to common threats. The IPS can do everything the IDS does but it can also block an attack, so this activity defends the network. So it detects ands sends an alert if there is an attack. Its the next evolution of IDS.</p>  
+                        <img class = "normal_images" src="images/idsips.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>Good security</h3> 
+                    <p class = "ans">To have good security you should never rely on a single countermeasure, you dont wabt one point of failure</p>
+                    <p class = "ans">Minimal attack surface so you should have any unnecessary features or services.</p>
+                    <p class = "ans">Monitors network behavior.</p>  
+                </div>
+                <div>
+                <footer class = weekfooter>
+                <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+            </div>
+
+            <!-- week 6 P2 -->
+            <div class = "index_my_layout">
+                <a id="week6p2"></a>
+                <h2 class = "index_title">Week 6 - Wireless security</h2>
+
+                <div class="qbox">
+                    <h3>What is 802.11? </h3> 
+                    <p class = "ans">This is the standard for WLAN the most common brand name is WIFI </p>  
+                </div>
+                
+                <div class="qbox">
+                        <h3>Why is wireless more vulnerable than wired? </h3> 
+                        <p class = "ans">You don't have to be close to the network to hack it. With a wired network you need physical access to get in the network, you don't need that with wireless.</p>                       
+                    </div>
+
+
+                    <div class="qbox">
+                        <img class = "normal_images" src="images/wireless.png" alt="sercuriyterminolgy">
+                    </div>
+
+                    <div class="qbox">
+                        <h3>Wireless Network components</h3> 
+                        <ul class = "ans">
+                            <li>Wireless client device - Phone, laptop</li>
+                            <li>Access point - Router </li>
+                            <li>transmission medium - radio weaves for data transfer (the source of vulnerability)</li>
+                        </ul>
+                        
+                    </div>
+
+
+                    <div class="qbox">
+                        <img class = "normal_images" src="images/wirlessth.png" alt="sercuriyterminolgy">
+                    </div>
+
+                    <div class="qbox">
+                        <h3>How can you deal with eavesdropping in a wireless network ?</h3> 
+                        <p class = "ans">Use single hiding techniques like, Turn off SSID broadcasting, Reduce signal strength, Locate wireless access points in the interior of the building, away from windows and exterior walls.</p>
+                        <p class = "ans"> Encryption is effective against eavesdropping to the extent that the encryption keys are secured.</p>
+                        <p class = "ans"> Use antivirus, antispyware software and a firewall.</p>
+                        <p class  ="ans">Change your router’s pre-set password for administration.</p>
+                        <p class = "ans"> Allow only specific computers to access your wireless network.</p> 
+                    </div>
+
+                    <div class="qbox">
+                        <h3>Mobile device security threats</h3> 
+                        <ul class = "ans">
+                            <li>Device might be stolen</li>
+                            <li> Use of untrusted mobile devices</li>
+                            <li>Use of untrusted networks</li>
+                            <li>Use of applications created by unknown parties</li>
+                        </ul>  
+                    </div>
+                   
+            
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+
+                <!-- Week 7 P1  -->
+            <div class = "index_my_layout">
+                <a id="week7p1"></a>
+                <h2 class = "index_title">Week 7 - Malware</h2>
+
+                <div class="qbox">
+                    <h3>What is Malware? </h3> 
+                    <p class = "ans">This is software that was created to have malicious intent, and usually performs unwanted activity. This can affect , applications, Utility programs, Kernel-level programs (eg operating systems)</p>
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What two ways can you classify a malware?</h3> 
+                    <ol class = "ans">
+                        <li>How it spreads to reach the desired target</li>
+                        <li>The actions it takes once it reaches the target </li>
+                    </ol>
+                    <p>You can't fully classify, as they are not mutually exclusive so malware as it uses multiple techniques</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>How can the malware spread/Propagate?</h3> 
+                    <p class = "ans">They could have an executable file that contents a virus in it.</p> 
+                    <p class = "ans">They could exploit a software vulnerabilities to add malware. This could be done on the host or on the network, a worm could then replicate</p>
+                    <p class = "ans">ring attacks that convince users to bypass security mechanisms to install trojans or to respond to phishing attacks.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What payload actions do malware perform</h3> 
+                    <ul class = "ans">
+                        <li>Corrupt of system or data file</li>
+                        <li>Theft of service to make a botnet</li>
+                        <li>Theft of system/files, password key logging or spyware </li>
+                        <li>Stealth malware tries to hide from the ant virus</li>  
+                    </ul>
+                    <h3>What is a blended attack?</h3>
+                    <p>When you use multiple of the methods above.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are attack kits/crimeware?</h3> 
+                    <p class = "ans">These are tools that spread and payload a malware for you, it can be easily customized with the latest discover vulnerabilities to exploit the window of opportunity.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is a virus</h3> 
+                    <p class = "ans">Malware and virus aren't the same thing, however virus is a type of malware.</p>
+                    <p class = "ans">A virus is a program that infects other programs by changing them maliciously.</p>
+                    <p class = "ans">Virus distinguishing features include:</p>
+                    <ul class ="ans">
+                        <li>Reproduce its own code</li>
+                        <li>Attaches itself to other files (cant survive by itself)</li>
+                        <li>Spreads when the executable file is executed</li>
+                        <li> They thrive on lack of user authentication and access controls thats why they were so dominant in the early days.</li>
+                    </ul>
+                    
+                    <p class = "ans">Virus structure include:</p>
+                    <ol class ="ans">
+                        <li>Dormant phase - when the virus is ideal not all the viruses have this stage.</li>
+                        <li>Infection mechanisms - How the virus spreads or propagate.</li>
+                        <li>Trigger/Logic bomb - The event that causes it to activate the payload</li>
+                        <li>Payload - What does the virus do besides spread.</li>
+                    </ol>
+                </div>
+
+                <div class="qbox">
+                    <h3>What are Macro and scripting virus</h3> 
+                    <p class = "ans">These are usually exploited in microsoft office or a official app that lets you run mini code. The attacker runs malware in that mini code, this can be done through a word document or excel that usually spread through a phishing email and gets you to click enable macros, by enabling the macros you allow the documents to run malware. Macros are stored as visual basic code or XLM so it is easily for a hacker to put malicious code on it, to do things like execute a power shell command or download a malware. XLM its harder for antivirus to detect because the technology is so old. Because macro viruses infect user documents rather than system programs, traditional file system access controls are of limited use in preventing their spread.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are worms</h3> 
+                    <p class = "ans">A program that tries to infect more machines. To replicate itself a worm needs access to systems like email, file sharing, reverse shell or team viewer. It has the same phase as the virus. The propagation phase tries to find access to other systems to infect.</p>
+                    <p class = "ans">After a worm gets in a system, it goes to the network and spread once it finds other systems it infects them. Everytime a system connects to a new network the process repeats.</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>Bots and botnets</h3> 
+                    <p class = "ans">A bot is a machine that is controlled by an attacker remotely. They dont have to affect the system it takes some system resources to mine crypto or for a DDOS attack. It is usually a larger network of bots and their is a master bot that controls what the system does.</p> 
+                    <p class = "ans">The attacker controls the Command and Control server (C&C) server, all bots contact the C&C and report their status and receivers commands.</p>
+                    <img class = "normal_images" src="images/botnet.png" alt="sercuriyterminolgy">
+                    <p class ="ans"> The issue with the C&C is the it provides a single point of failure. To prevent that most attackers have multiple C&C servers. Large botnets usually are broken up into smaller once so each bot only knows one C&C server. </p>
+                    <p class = "ans">Their are two approaches to C&C which are:</p>
+                    <ul class ="ans">
+                        <li>Push style - botmaster sends command to the bot.</li>
+                        <li>Pull style - bot asks master for commands</li>
+                    </ul>
+
+
+                    <p class = "ans">Address for each C&C server must be available to each bot this includes binary, config and must be frequently updated.</p>
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is DOS attack?</h3> 
+                    <p class = "ans">Denial of service this is when a devices floods the network/website with traffic, making it slow or unaccessible.</p>
+                    <p class = "ans">This dosnt work as much any more because servers got good at handling a lot of traffic.</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is a DDOS attack</h3> 
+                    <p class = "ans">Distributed danial of service. This is the next upgrade to DOS it uses multiple devices (usually botnets) to flood the network making it unavailable.</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is a trojan horse</h3> 
+                    <p class = "ans">This is when a malicious program is hidden in an application, it preforms a wanted function but also does malicious activity.</p> 
+                    <p class = "ans">This requires you to run the program but it can't self replicate.</p> 
+                    <img class = "normal_images" src="images/trojenhourse.png" alt="sercuriyterminolgy"> 
+                </div>
+
+                
+                <div class="qbox">
+                    <h3>What is spyware?</h3> 
+                    <p class = "ans">Malware that secretly spys on users and collects data without their concent.</p>
+                    <p class ="ans">This is hidden from users and is hard to detect. Leaks info like passwords and card info.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What are key loggers</h3> 
+                    <p class = "ans">Malware that records users key strokes. This runs in the background. Wants to capture data like password. They are easy to write and difficult to recognize by antivirus.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is Drive by download</h3> 
+                    <p class ="ans"> This is a malware installs automatically do you device without your consent, this usually happens when you  when you download an software and multiple other software get downloaded.</p>
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/viruscounter.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/defence.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/bot.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/pre.png" alt="sercuriyterminolgy">
+                </div>
+
+               
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+                      <!-- Week 7p2 -->
+            <div class = "index_my_layout">
+                <a id="week7p2"></a>
+                <h2 class = "index_title">Week 7 - Web Security</h2>
+
+                <div class="qbox">
+                    <h3>Web app security</h3> 
+                    <p class = "ans">The exploits the server that hosts the web app.</p>
+                    <p class = "ans">This is done by the attacker identifying the structure of the web app (server/ database). Depending on th structure the attacker will perform different attacks</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>How to prevent SQL injection</h3> 
+                    <ul class = "ans">
+                        <li>always sanitize the input </li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is SOP</h3> 
+                    <p class = "ans">Same origin policy - This dosn't allow scripts from other pages to run when you are on a different website. The browser allows scripts in the first website to access data in the second page, only if they have the same origin.</p>
+                    <img class = "normal_images" src="images/url.png" alt="sercuriyterminolgy">
+                      <p class ="ans">The same origin mean if the protocol, the host and the port are the same</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is XSS (Cross-site scripting)</h3> 
+                    <p class = "ans">XSS is an code injection attack that allows an attacker to execute malicious JavaScript in a users browser.The attacker dosent directly target his victim, the attacker exploits a vulnerability in a website that the victim visits. The malicious JavaScript appears to be a legitimate part of the website.</p>
+                    <p class = "ans">Because it uses SOP JavaScript runs in a restricted environment and cant access the OS or user files. However , JavaScript has access to some of the user's sensitive information, such as cookies, or change the website. if that happens your cookies will be stolen. They can also keylog and make a fake website using phishing.</p>
+
+
+                </div>
+                
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+
+
+                      <!-- Week8 -->
+            <div class = "index_my_layout">
+                <a id="week8"></a>
+                <h2 class = "index_title">Week 8 - Cloud computing</h2>
+
+                <div class="qbox">
+                    <h3>What is cloud computing?</h3> 
+                    <p class = "ans">A system (SAAS),platfom (PAAS) or infrastructure (IAAS) that is on the internet.</p>
+                    <img class = "normal_images" src="images/SAAS.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/PAAS.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/Iaas.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/Saaspass.png" alt="sercuriyterminolgy"> 
+                </div>
+
+                <div class="qbox">
+                    <h3>Public cloud</h3> 
+                    <p class = "ans"> infrastructure is made available to the general public and is owned by an organization selling cloud services. The cloud provider is responsible for both the cloud infrastructure and the control of data. Its cheap but might have security concerns.</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>Private cloud</h3> 
+                    <p class = "ans">This is implemented within the internal IT environment of the organization. The organization may choose to manage the cloud in house or contract the management function to a third party. The cloud servers and storage devices may exist on premise or off premise. It is more secure but more time consuming and more expensive</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Community cloud</h3> 
+                    <p class = "ans">Is a commination of public and private cloud. It has the restrictions like the private cloud but has shared resources like the public cloud. The cloud infrastructure is managed by the organization.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is hybrid cloud?</h3> 
+                    <p class = "ans">This is made up of two or more clouds that are septate  bound together by a software that allows you to transfer data. So the sensitive info can be in  a private cloud and the less sensitive can be in the public cloud, this is good for small bushiness as it is cheaper but also secure.</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>Risks for cloud computing?</h3> 
+                    <p class = "ans">Abuse use of cloud computing - Stricter sign up validation process and inspect the customers network traffic. </p> 
+                    <p class ="ans">Malicious insiders -  human resource requirements as part of legal contract ,Determine security breach notification processes</p> 
+                    <p class ="ans">Shared technology issues - Monitor environment for unauthorized changes/activity, Promote strong authentication and access control for administrative access and operations. Conduct vulnerability scanning and configuration audits.</p>
+                    <p class = "ans"> Data loss or leakage - Have a strong access control, Encrypt and protect integrity of data, Implement strong key generation, storage and management, and destruction practices</p>
+                    <p class = "ans"> Account or service hijacking - Dont allow account sharing, use two fa</p>  
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What is SecaaS</h3> 
+                    <p class = "ans">cloud security as a service - This secures your app and service through the cloud, either to cloud-based infrastructure and software or from cloud to host systems.</p>
+                    <img class = "normal_images" src="images/CSA.png" alt="sercuriyterminolgy">
+                </div>
+                
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+                      <!-- Week 9 p1 -->
+            <div class = "index_my_layout">
+                <a id="week9p1"></a>
+                <h2 class = "index_title">Week 9 - Economics</h2>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/cost.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/ben.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/model1.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/model2.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/model3.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/model4.png" alt="sercuriyterminolgy">
+
+
+
+                </div>
+                
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+
+                      <!-- Week 9 p2 -->
+            <div class = "index_my_layout">
+                <a id="week9p2"></a>
+                <h2 class = "index_title">Week 9 - OS</h2>
+
+                <div class="qbox">
+                    <h3>OS security</h3> 
+                    <p class = "ans">It is possible for a system to be compromised during installation process before the patches are installed, so building and deploying a system should be planned and designed to counter this threat.</p>
+                    <p class ="ans">The process must</p>
+                    <ul class = "ans">
+                        <li>Assess risks and plan the system deployment</li>
+                        <li>Secure the OS and key apps</li>
+                        <li>Make sure all important content is secure</li>
+                        <li>Have appropriate network protection</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What strategies can you implement to keep the OS secure?</h3> 
+                    <ul class = "ans">
+                        <li>White list approved apps</li>
+                        <li>Patch third party apps and OS vulnerabilities</li>
+                        <li>restrict admin privileges</li>
+                        <li>Have access control</li>
+                        <li>How can users authenticate</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is OS hardening?</h3> 
+                    <p class = "ans">This is when you make your system more secure by having the latest patches, by having all the apps up-to-date. After you do this you have to regularly monitor to make sure that you don't have any vulnerabilities.</p>
+                    <p class = "ans">Other ways you can harden your system is by removing unnecessary services, applications. Adding access control to it. You could configuring resource controls.</p>
+                    <p class ="ans">Add things like IPS or IDS antivirus to the system.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Process of installing a new system</h3> 
+                    <ol class = "ans">
+                        <li>Installing the OS on a protected network</li>
+                        <li>Harden the OS</li>
+                        <li>Install the minimum apps/ software</li>
+                        <li>Secure boot</li>
+                        <li>System must be kept up to date</li>
+                        <li>Validate all patches and test security </li>
+                    </ol>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Why is removing unnecessary software good?</h3> 
+                    <p class = "ans">Fewer software the less risk you have to run in a vulnerability</p> 
+                </div>
+
+                <div class="qbox">
+                    <h3>Security maintenance</h3> 
+                    <p class = "ans">This is the process of maintaining security continually</p>
+                    <ul>
+                        <li>Monitoring and analyzing log info</li>
+                        <li>Performing backups</li>
+                        <li>regularly testing system security</li>
+                    </ul>
+                </div>
+
+                <div class="qbox">
+                    <h3>What is logging?</h3> 
+                    <p class = "ans">Tells you about what happened to your system and keeps records of it. In an event of an attack you can identify what happened. Automated analysis is preferred. Takes a lot of storage</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Virtualization?</h3> 
+                    <p class = "ans">Software that lets you run a virtual os inside an os, you can have multiple os in one system. This raises security concerns because they might be able to access the host system.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is a hypervisor</h3> 
+                    <p class = "ans">The middle man between the hardware and the VM, this helps allocate resources.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Vm Security issues?</h3> 
+                    <p class = "ans">Guest OS isolation - make sure the programs in the VM only access resources allocated to it.</p>  
+                </div>
+
+
+
+        
+               
+                
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+                      <!-- Week 10p1 -->
+            <div class = "index_my_layout">
+                <a id="week10p1"></a>
+                <h2 class = "index_title">Week 10 - human resources</h2>
+
+                <div class="qbox">
+                    <h3>Benefits to Security Awareness, Training, and Education</h3> 
+                    <ul class = "ans">
+                        <li>Improving employee behavior</li>
+                        <li>Increasing employee accountability</li>
+                        <li>Mitigating liability for employee behavior</li>
+                        <li> Complying with regulations and contractual obligations</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/agreement.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>During they are employed</h3> 
+                    <p class = "ans">Ensure that employees, contractors, and third-party users are aware of information security threats and concerns and their responsibilities and liabilities with regard to information security</p>  
+                    <p class ="ans">Reduce the risk of human error.</p>
+                </div>
+
+
+                <div class="qbox">
+                    <h3>What are the two elements of personal security during employment?</h3> 
+                    <p class = "ans">A comprehensive security policy document</p>
+                    <p class = "ans">An ongoing awareness and training program</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Security principles</h3> 
+                    <p class = "ans">Least privileges - Only access to what they need nothing more</p>
+                    <p class ="ans">Separation of duties</p>
+                    <p class ="ans">Limited reliance on key employees</p>  
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/terminate.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/email.png" alt="sercuriyterminolgy">
+                </div>
+
+                <div class="qbox">
+                    <h3>Security incident response </h3> 
+                    <p class = "ans">Procedures need to reflect possible consequences of an incident on the organization and allow for a suitable response</p>
+                    <p class = "ans">Developing procedures in advance can help avoid panic, so its a systematic incident response</p>
+                    <p class="ans">Quicker recovery to minimize loss, theft, disruption of service.</p>
+                    <p class="ans">Use information gained during incident handling to better prepare for future incidents </p>
+                    <p class ="ans">Dealing properly with legal issues that may arise during incidents</p>
+                </div>
+
+                <div class="qbox">
+                    <h3>What are CSIRTs</h3> 
+                    <p class = "ans">Computer Security Incident Response Team. They are responsible for, quickly detecting incident, minimizing loss, revoke the weaknesses that were exploited, restore computing services.</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>How are incidents detected?</h3> 
+                    <p class = "ans">Through users or staff - they should make a report of malfunctions or anomalous behaviors</p>  
+                    <p class = "ans"> Automated tools -  System integrity verification tools,  Log analysis tools,  Network and host intrusion detection systems (IDS),IPS</p>
+                </div>
+
+                <div class="qbox">
+                    <img class = "normal_images" src="images/tragy.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/tragy.png" alt="sercuriyterminolgy">
+                    <img class = "normal_images" src="images/tragy.png" alt="sercuriyterminolgy">
+                </div>
+
+
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+                      <!-- Week 10p2 -->
+            <div class = "index_my_layout">
+                <a id="week10p2"></a>
+                <h2 class = "index_title">Week 10  - Security auditing</h2>
+
+                <div class="qbox">
+                    <h3>What is Security auditing?</h3> 
+                    <p class = "ans">An independent review of systems records and activities. To see if your system has good system controls, security polices, and if any breaches happened. They also might recommend changes to the systems.</p>
+                    <p class = "ans">This is done to have accountability. system entities that initiate or participate in security-relevant events and actions  </p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>What is a security audit trail</h3> 
+                    <p class = "ans">A record of system activities that can enables you to see what happened. This can be used to see what happened leading event involving security breach. This can be sen from the beginning to the end of the event.</p>
+                    <p class ="ans">According to many regulations you need an audit trail, you also might like to see if their is an insider.</p>  
+                </div>
+                
+                <div class="qbox">
+                    <h3>What is an event?</h3> 
+                    <ul class = "ans">
+                        <li>Intro of object</li>
+                        <li>Deletion of object</li>
+                        <li>Change of access rights</li>
+                        <li>Changes to subject or object security attributes</li>
+                        <li>Policy checks performed by the security software </li>
+                        <li>Use of identification and authentication functions</li>
+                        <li>Import/export of data from/to removable media</li>
+                        <li>Date/time/location/user of access attempt</li>
+                        <li>Attempts to add/modify/delete physical access privilege</li>
+                    </ul>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Operating system event Categories</h3> 
+                    <p class = "ans"> Windows has 9 different event categories to check things like user authentication activities, account management, access to services, Logon events, creation of groups, policies, privileges and system events</p>
+                    <p class = "ans">LINUX/UNIX is based on 4 elements to keep track events based on a config file and store them in a log file</p>  
+                </div>
+
+                <div class="qbox">
+                    <h3>Audit trail analysis.</h3> 
+                    <p class = "ans">This analysis programs. Must understand context of log entities. Regular reviews entries to gain an understanding of baseline
+                        </p>  
+                </div>
+
+
+
+
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+
+
+
+
+                      <!-- Week 12 -->
+            <div class = "index_my_layout">
+                <a id="week12"></a>
+                <h2 class = "index_title">Week 12 - Pen testing</h2>
+
+                <div class="qbox">
+                    <h3>What is pen testing?</h3> 
+                    <p class = "ans">When you simulate a real attack on a system to see if it can be hacked. Companies hire you to do this.</p>
+                    <ol class ="ans">
+                        <li>Talk to client about their goal</li>
+                        <li>Gather info</li>
+                        <li>vulnerability analysis</li>
+                        <li>exploitation</li>
+                    </ol>
+                    <p class = "ans">If u havent been asked to pen test dont</p>
+                    
+                    <p class ="ans">You test things like:</p>
+                    <ul class ="ans">
+                        <li>OS</li>
+                        <li>Website</li>
+                        <li>Network</li>
+                        <li>Mobile</li>
+                        <li>Passowrd</li>
+                        <li>social eng</li>
+                    </ul>
+                </div>
+                
+              
+                <div>
+                <footer class = weekfooter>
+                    <p><a href="#week1">Go to top</a></p>
+                </footer>
+                </div>
+                </div>
+
+     
+        
+
+
+
+
+
+<!-- Hellooo -->
+        </main>
+
+        
+
+
+            
+
+
+              
+            
+            
+            
+           
+        
+      <aside class = "index_aside">
+        <div class = "index_my_layout">
+        <h2>Resources</h2>
+    
+        <ol>
+            <li><a href = "https://youtu.be/--tnZMuoK3E">Hash and salt</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=l8kJgF1tqrs">CIA and types of hackers</a></li>
+            <li><a href="https://youtube.com/playlist?list=PLFMQCZ6WKZQn2DuFOu5kv5JxYCpB94SRg"> Access control and Authentication</a></li>
+            <li><a href="https://youtube.com/playlist?list=PLFMQCZ6WKZQkTP4oqnsVF67XcSl6tbUW6">Encryption</a></li>
+            <li><a href="https://youtu.be/SOoJcrR4Ijo">Buffer overflow</a></li>
+            <li><a href="https://www.acunetix.com/blog/web-security-zone/what-is-integer-overflow/">Int overflow</a></li>
+            <li><a href="https://portswigger.net/web-security/sql-injection">SQL injections</a></li>
+            <li><a href="https://youtu.be/96oZ3KfnekE">Social engineering</a></li>
+            <li><a href="https://data-flair.training/blogs/cyber-security-risk-analysis/">Risk analysis</a></li>
+            <li><a href="https://www.itgovernance.co.uk/cyber-security-risk-management">Risk management</a></li>
+            <li><a href="https://youtu.be/ostHw6nEu_s">Risk controls</a></li>
+            <li><a href="https://youtu.be/kDEX1HXybrU">Firewall</a></li>
+            <li><a href="https://youtu.be/gtk2qphHKmA">Honeypot</a></li>
+            <li><a href="https://www.vmware.com/topics/glossary/content/intrusion-prevention-system.html#:~:text=What%20is%20an%20intrusion%20prevention,it%2C%20when%20it%20does%20occur.">IPS</a></li>
+            <li><a href="https://youtu.be/_gHMkEKGwBM">IDS vs IPS</a></li>
+            <li><a href="https://youtu.be/cGIgJOICpX0">More IDS vs IPS</a></li>
+            <li><a href="https://www.kaspersky.com/resource-center/definitions/drive-by-download">Drive-by-download</a></li>
+            <li><a href="https://youtu.be/p29wurLC8Tk">Macros</a></li>
+            <li><a href="https://youtu.be/oyUsZu6ygq8">Worm</a></li>
+            <li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos">DOS</a></li>
+            
+        </ol>
+        </div>
+       </aside>
+  
+  
+            <footer id = "footer">
+                <div class = "footer_container">
+                    <p><a href="#week1">Go to top</a></p>
+                </div>
+	        </footer>
+        
+    
+        </div> 
+        
+        
+        
+   </body>
+   
+</html>

@@ -1,0 +1,371 @@
+/**************************************************************index only************************************************************/
+
+/*body of my index to add the background image and fonts*/
+.index_body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/wallpapersden.com_mountains-amoled-4k_3840x2160.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  font-size: 18px;
+  color: aliceblue;
+  font-family: 'Shippori Antique', sans-serif;
+  max-width: 95%;
+  margin-left: 1%;
+  margin-left: 1%;
+}
+
+
+/* This makes the main outline of my weekly posts*/
+.index_my_layout{
+  border-radius: 15px;
+  background:#58585810;
+  backdrop-filter: blur(10px); 
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.082);
+  padding: 5%;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+margin-bottom: 3%;
+}
+
+
+
+/*The is the title that goes in every image*/
+.img_title{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 1.5%;
+}
+
+/*This styles the menu*/
+/*This sets up how it looks when none is hovering on it*/ 
+.index_menu li a{
+  margin:2%;
+  display: block;
+  padding: 5%;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid rgb(150, 0, 0);
+  border-radius: 9px;
+}
+
+/*Makes the text of the button in the center*/
+.index_menu{
+  text-align: center;
+  
+}
+
+/*This changes colour when you hover*/
+.index_menu li a:hover {
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 21, 21);
+  border-color: black;
+}
+/*End of menu style*/
+
+/*This is for my weekly navigation*/
+/*How my button looks when it is clicking it*/
+.weeknav li a{
+  margin:2%;
+  display: block;
+  padding: 5%;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid rgb(255, 31, 31);
+  border-radius: 9px;
+  
+}
+
+/*Stop the bullet points in ul*/
+.weeknav li{
+  list-style-type: none;
+  
+}
+
+/*Makes the text in the center of the button*/
+.weeknav{
+  text-align: center;
+}
+
+/*Changes colour when hovering on the weekly nav*/
+.weeknav li a:hover {
+  background-color:rgb(255, 14, 14);
+  color:black;
+}
+
+/*End of weekly nav*/
+
+/*Styling for the table*/
+table, td {
+border: 5px solid wheat;
+border-collapse: collapse;
+  background:#00000010;
+  backdrop-filter: blur(2px); 
+}
+
+/*This is for long images*/
+.extended_images{
+  border:3px solid;
+  border-radius:10px;
+  border-color:rgb(207, 206, 206);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10em;
+  max-width: 100%;
+  margin-top: 2%;
+}
+
+/*This is for normal images*/
+.normal_images{
+
+  border-radius:10px;
+  border-color:rgb(207, 206, 206);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 550px;
+  max-width: 100%;
+width: 100%;
+  margin-top: 2%;  
+}
+
+.index_title{
+  text-align: center;
+}
+
+
+/*This is the gird method*/
+/*Sets the name of each gird area*/
+
+.banner {
+grid-area: banner;
+}
+.index_menu {
+grid-area: menu;
+}
+.week_nav {
+grid-area: nav;
+}
+table {
+grid-area: table;
+}
+.index_main {
+grid-area: main;
+}
+.index_aside {
+grid-area: aside;
+}
+
+footer{
+  grid-area: footer;
+}
+
+
+/*This is the template for each device width*/
+.index_wrapper {
+display: grid;
+grid-gap: 20px;
+grid-template-areas:
+  "banner"
+  "menu"
+  "nav"
+  "table"
+  "main"
+  "aside"
+  "footer"; 
+}
+
+/*Removes table if device width is less than 500px*/
+@media screen and (max-width: 500px) {
+table {
+  display:none;
+ }
+ .normal_images{
+   width: 20em;
+ }
+ .index_my_layout{
+   width:93.2%;
+   
+ }
+
+}
+
+/*This is the template for tablet width*/
+@media screen and (min-width: 768px) and (orientation: landscape) and (max-width: 999px) {
+.index_wrapper {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-areas: 
+    "banner  banner"
+    "menu  menu"
+  "nav  table"
+    "aside  main"
+    "footer  footer";
+}
+
+
+
+.index_wrapper{
+
+ max-width:95%;
+ margin-left: 2%;
+ margin-right: 2%;
+}
+
+.index_my_layout{
+ max-width: 30em;
+}
+
+table,td {
+max-width:8em;
+font-size: 15px;
+
+}
+}
+
+
+
+/* Template for Desktop */
+@media screen and (min-width: 1000px) and (orientation:landscape) {
+.index_wrapper {
+  grid-template-columns: 1.5fr 4fr 2fr;
+  grid-template-areas: 
+    "banner  banner  banner"
+    "menu  menu  menu"
+  "nav  main  aside"
+    "nav  main  aside"
+    "footer  footer  footer";
+ }
+
+ 
+/*makes the navigation menu in row*/
+ .index_menu li{
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+
+ }
+
+}
+
+
+pre code {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  display: block;
+  padding: 20px;
+}
+  
+  
+
+
+
+
+
+
+
+
+
+/************************************************************For index and tutorial**********************************************/ 
+ 
+
+/*footer container*/
+.footer_container{
+  border-radius: 15px;
+  background:black;
+  padding: 20px;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5% ;
+  color: aliceblue;
+}
+
+/*sets the colour for the links*/
+a{
+  color: rgb(255, 56, 72);
+  text-decoration: none;
+}
+
+a :visited{
+  color:rgb(255, 56, 72);
+  text-decoration: none;
+}
+
+a:hover{
+  color: gray;
+}
+
+
+footer {
+
+      text-align: center;
+      margin-top: 3%;
+}
+
+
+
+header{
+  margin-top: 2%;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+
+
+.clear {
+clear: both;
+}
+
+
+
+
+
+    /************************************************************** For everything *****************************/
+    @media screen and (max-width: 250px){
+      
+      body{
+      display:none;
+      }
+
+  }
+
+
+  .qbox{ 
+    background-color:#ffffff;
+    color: black;
+    border-radius:10px;
+    font-size:16px;
+    padding:15px;
+    margin:5px;
+    } 
+
+
+
+    .abox{ 
+      background-color:#8a8a8a;
+      color: black;
+      border-radius:10px;
+      font-size:16px;
+      padding:15px;
+      margin:5px;
+      }     
+
+
+  
+
+

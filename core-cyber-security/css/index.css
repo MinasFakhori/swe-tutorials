@@ -1,0 +1,225 @@
+/**************************************************************index only************************************************************/
+
+/*body of my index to add the background image and fonts*/
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/wallpapersden.com_mountains-amoled-4k_3840x2160.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Shippori Antique', sans-serif;
+    max-width: 95%;
+    margin-left: 1%;
+    margin-left: 1%;
+  }
+  
+  .menu{
+      margin:2%;
+      display: block;
+      padding: 5%;
+      color:rgb(255, 255, 255);
+      text-decoration: none;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 9px;
+      background:#00000010;
+      backdrop-filter: blur(10px); 
+      box-shadow: inset 0 0 100px rgba(61, 61, 61, 0.5);
+    }
+    
+ 
+  
+  
+  
+  /* This makes the main outline of my weekly posts*/
+  .index_my_layout{
+    border-radius: 15px;
+    background:#00000010;
+    backdrop-filter: blur(10px); 
+    box-shadow: inset 0 0 100px rgba(124, 124, 124, 0.404);
+    padding: 5%;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 95%;
+    
+  }
+  
+  
+  /*The is the title that goes in every image*/
+  .img_title{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 1.5%;
+  }
+  
+  /*This styles the menu*/
+  /*This sets up how it looks when none is hovering on it*/ 
+  .menu li a{
+    margin:2%;
+    display: block;
+    padding: 5%;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid rgb(255, 1, 1);
+    border-radius: 5px;
+  }
+  
+  /*Makes the text of the button in the center*/
+  .menu{
+    text-align: center;
+    border-style:none ;
+  }
+
+
+  
+  /*This changes colour when you hover*/
+  .menu li a:hover {
+    background-color:#000000;
+    border: black;
+    color:rgb(255, 0, 0);
+  }
+  /*End of menu style*/
+  
+  /*This is for my weekly navigation*/
+  /*How my button looks when it is clicking it*/
+  .weeknav li a{
+    margin:2%;
+    display: block;
+    padding: 5%;
+    color:rgb(161, 1, 1);
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    
+  }
+  
+  /*Stop the bullet points in ul*/
+  .weeknav li{
+    list-style-type: none;
+  }
+  
+  /*Makes the text in the center of the button*/
+  .weeknav{
+    text-align: center;
+  }
+  
+  /*Changes colour when hovering on the weekly nav*/
+  .weeknav li a:hover {
+    background-color:blanchedalmond;
+    color:black;
+  }
+  
+  /*End of weekly nav*/
+  
+  
+  
+  /*This is for long images*/
+  .extended_images{
+    border:3px solid;
+    border-radius:10px;
+    border-color:rgb(207, 206, 206);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 10em;
+    max-width: 100%;
+    margin-top: 2%;
+  }
+  
+  /*This is for normal images*/
+  .normal_images{
+    border:3px solid;
+    border-radius:10px;
+    border-color:rgb(207, 206, 206);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 550px;
+    max-width: 100%;
+  width: 70%;
+    margin-top: 2%;  
+  }
+  
+  .title{
+    text-align: center;
+  }
+  
+  
+
+
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  /*sets the colour for the links*/
+  a{
+    color: aqua;
+    text-decoration: none;
+  }
+  
+  a :visited{
+    color:aquamarine;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: gray;
+  }
+  
+  
+  footer {
+  
+        text-align: center;
+        margin-top: 3%;
+  }
+  
+  
+  
+  header{
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  h3{
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  
+  .clear {
+  clear: both;
+  }
+  
+      /************************************************************** For everything *****************************/
+      @media screen and (max-width: 250px){
+        
+        body{
+        display:none;
+        }
+  
+    }
+
+
+   
+  
+  
+  
